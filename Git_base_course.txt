@@ -1,0 +1,51 @@
+------Linux комманды
+$ cd repo ///перейти в папку
+Что бы не вбивать полностью директорию: cd Tes {Несколько букв из названия директории, а затем нажать Tab}
+cd .. ///Выйти на уровень вверх
+cd ../.. ///выйти на два уровня вверх
+cd ~ ///Переход в домашнюю директорию
+ls ///Просмотр файлов в каталоге
+ls -a ///Просмотр файлов в каталоге со скрытыми файлами
+mkdir repo ///создать папку
+$ touch test.txt ///Создать файл
+cat README.md ///Посмотреть содержимое файла
+$ cp test.txt test_copy.txt ///Скопировать файл (cp сокращенное от copy)
+$ mv test.txt test_original.txt ///Переименовать файл (mv сокращенное от move)
+$ echo "Hello" > test_original.txt ///Записать в файл
+$ rm test_original.txt ///Удалить файл
+$ rm -R TestDir/ ///Удалить директорию
+
+Для Windows используй git bash
+
+------Урок 3
+git config --global user.name r.iskovskikh
+git config --global user.email iskovskih@ya.ru
+git config --global color.ui auto
+git config --global core.editor "notepad++"
+git config --list
+
+------Урок 4 - Создание локального репозитария через консоль git bach
+
+$ git init ///Инициирует создание локального репозитория
+$ git status ///Посмотреть статус
+$ git remote add origin https://github.com/riskovskikh/repo-GitHub.git ///Связать локальный репозитарий с удаленным
+$ git remote -v ///Проверить связь локального и удаленного репозитария
+
+------Урок 5
+
+
+------Урок 6
+
+
+------Урок 7. Работа с ветками репозитория
+git branch ///Просмотр имеющихся веток репозитория
+git branch dev ///Создать ветку
+git branch dev-master master ///Создать ветку с указанием с какой ветки. Можно создать с любой ветки
+git checkout dev ///Переключиться на ветку
+git checkout -b dev-test ///Создать новую ветку в момент переключения. если ветки нет, то будет создана
+
+------У 8
+ssh-keygen ///сформировать ssh ключ для подключения к git репозиторию
+clear ///очистить экран
+git clone git@github.com:riskovskikh/project.git project ///Склонировать репозиторий
+git remote -v ///Проверить связь локального и удаленного репозитария
