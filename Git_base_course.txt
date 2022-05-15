@@ -44,7 +44,7 @@ git branch dev-master master ///Создать ветку с указанием 
 git checkout dev ///Переключиться на ветку
 git checkout -b dev-test ///Создать новую ветку в момент переключения. если ветки нет, то будет создана
 
-------У 8
+------Урок 8. Публикация репозитория
 ssh-keygen ///сформировать ssh ключ для подключения к git репозиторию
 clear ///очистить экран
 git clone git@github.com:riskovskikh/project.git project ///Склонировать репозиторий
