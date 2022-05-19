@@ -75,3 +75,9 @@ git fetch ///Подгрузить обновления из Репозитари
 Ошибка "fatal: The current branch dev has no upstream branch." говорит о том что в репозитории ветки аналогичной ветки dev. нужно создать. 
 git push --set-upstream origin dev ///используй комманду из подсказки git. Создание ветки в удаленном репозитарии и выгрузка данных.
 git push -u origin dev ///Более краткая версия команды
+
+------Урок 9. Слияния веток
+git branch
+git checkout master
+git merge dev
+git branch -d dev
