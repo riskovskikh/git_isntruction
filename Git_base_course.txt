@@ -65,8 +65,9 @@ git checkout -b dev-test ///Создать новую ветку в момент
 
 ------Урок 8. Публикация репозитория
 ssh-keygen ///сформировать ssh ключ для подключения к git репозиторию
+cat /c/Users/User/.ssh/id_rsa.pub ///Нужный ключ в файле *.pub. Просмотреть содержимое можно с помощью CAT
 clear ///очистить экран
-git clone git@github.com:riskovskikh/project.git project ///Склонировать репозиторий
+git clone git@github.com:riskovskikh/project.git project ///Склонировать репозиторий. Ссылку для клонирования на сайте для SSH подключения!!
 git remote -v ///Проверить связь локального и удаленного репозитария
 git push ///Загрузитьв репозитарий локальные изменения
 git pull ///Скачать данные из удаленного репозитария
